@@ -1,35 +1,50 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>EasyMake - The better Cmake</title>
+    </head>
+    
+    <link rel="stylesheet" href="main.css">
 
-<head>
-    <title>EasyMake - The better Cmake</title>
-</head>
-<link rel="stylesheet" href="main.css">
-<body">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <header>
-        <h1>Easymake</h1>
-    </header>
-    <p>A simple, lightweight and open-sourced alternative to Make or CMake.</p>
-    <div style="background-color:#666;padding: 30px;">
-        <h1>Download/Source Code</h1>
-        <p>In order to install it you have to compile it, but dont worry its really easy!</p>
-        <p>The source code can be found on github <a href="https://github.com/undersquire/easymake">here</a></p>
-    </div>
-    <br> <br>
-    <div style="background-color:#666;padding: 30px;">
-        <h1>Getting started</h1>
-        <p>The source code contains a couple of build examples that you can take a look at.</p>
-        <p>You can also take a look at the build.ezmk that easymake uses</p>
-    </div>
-    <p style="color: red;"><strong id="darktheme?"> </strong></p>
-    <button onclick="darktheme()">Light theme</button>
-    <script>
-        function darktheme() {
-            document.getElementById("darktheme?").innerHTML = "No";
-        }
-    </script>
-    <p>Wiki <a href="wiki.html">here</a></p>
-</body>
+    <body">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <header>
+
+            <h2>Easymake</h2>
+        
+        </header>
+        
+        <p><i>simple, lightweight and open-sourced alternative to Make or CMake.</i></p>
+
+        <div style="background-color:#666;padding: 15px;">
+        
+            <h1>Download/Source Code</h1>
+        
+            <p>In order to install it you have to compile it, but dont worry its really easy!</p>
+        
+            <p>The source code can be found on github <a href="https://github.com/undersquire/easymake">here</p></a> <a href="https://github.com/undersquire/easymake/archive/main.zip"> <img src="src/download.png" height="50px" width="50px"></a>
+        
+            <h1>Getting started</h1>
+        
+            <p>Here is an example of a simple EasyMake file.</p>
+        
+            <img src="src/code.png" >
+        
+        </div>
+
+        <p style="color: red;"><strong id="darktheme?"> </strong></p>
+        
+        <button onclick="darktheme()">Light theme</button>
+        
+        <script>
+            function darktheme() {
+                document.getElementById("darktheme?").innerHTML = "No";
+            }
+        </script>
+
+        <p>Wiki <a href="wiki.html">here</a></p>
+    </body>
 
 </html>
