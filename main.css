@@ -9,6 +9,7 @@ header {
     font-size: 35px;
     color: white;
 }
+
 section {
   display: -webkit-flex;
   display: flex;
@@ -24,9 +25,9 @@ nav {
   font-size: 20px;
 }
 code {
-  background: rgb(47, 47, 47);
+  background: rgb(233, 236, 241);
   padding: 5px;
-
+  color: black;
 }
 /* Style the list inside the menu */
 nav ul {
